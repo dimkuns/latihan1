@@ -1,8 +1,8 @@
 <?php
-class m_mahasiswa extends CI_Model
+class m_dosen extends CI_Model
 {
-    private $table = "mahasiswa";
-    private $primary = "nim";
+    private $table = "dosen";
+    private $primary = "nip";
 
     function tampilData()
     {
